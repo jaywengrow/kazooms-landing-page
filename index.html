@@ -5,11 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kazooms Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #2a6496;
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 0.3em 0;
+        }
+        .fun-joke {
+            font-style: italic;
+            color: #666;
+            margin-top: 1em;
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to Kazooms Landing Page!</h1>
     <p>This is a silly merge request trying to add some fun.</p>
-    <p>Why did the developer go broke? Because he used up all his cache!</p>
-    <p>Colin was here first</p>
+    <p class="fun-joke">Why did the developer go broke? Because he used up all his <span class="highlight">cache</span>!</p>
+    <p><span class="highlight">Colin was here first</span></p>
 </body>
 </html>
