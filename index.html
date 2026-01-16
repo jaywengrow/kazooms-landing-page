@@ -3,37 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kazooms Digital Widgets</title>
+  <title>Kazooms - The Ultimate Learning Platform</title>
+  <meta name="description" content="Kazooms: Fun, interactive, and accessible learning for everyone.">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Kazooms Digital Widgets</h1>
-    <nav>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <h1>Kazooms</h1>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
-  <main>
+  <main id="main-content">
     <section id="features">
       <h2>Features</h2>
       <ul>
-        <li>Easy integration</li>
-        <li>Customizable widgets</li>
-        <li>Real-time analytics</li>
+        <li>Interactive lessons</li>
+        <li>Accessible for all learners</li>
+        <li>Fun and engaging activities</li>
       </ul>
     </section>
     <section id="about">
       <h2>About Kazooms</h2>
-      <p>Kazooms provides digital widgets to enhance your website's interactivity and engagement.</p>
-      <img src="kazooms-widget.png" alt="Screenshot of a Kazooms digital widget interface" />
+      <p>Kazooms is designed to make learning fun, interactive, and accessible for everyone. Our platform is built with accessibility in mind, ensuring all users can enjoy our content.</p>
+      <img src="favicon.png" alt="Kazooms logo" width="64" height="64" />
     </section>
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:info@kazooms.com" rel="nofollow noreferrer">info@kazooms.com</a></p>
+      <form aria-label="Contact form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
     </section>
   </main>
   <footer>
